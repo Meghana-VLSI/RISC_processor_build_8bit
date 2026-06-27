@@ -10,7 +10,7 @@ This folder contains the Verilog testbench used to verify the functionality of t
 
 | File | Description |
 |------|-------------|
-| risc8_tb.v | Main testbench |
+| tb_risc8_top.v | Main testbench |
 | README.md | Testbench documentation |
 
 ---
@@ -38,7 +38,7 @@ The following features are verified:
 
 1. Open Vivado.
 2. Add RTL files.
-3. Add `risc8_tb.v`.
+3. Add `tb_risc8_top.v`.
 4. Run Behavioral Simulation.
 5. Observe waveform.
 
