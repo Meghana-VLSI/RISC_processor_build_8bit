@@ -79,12 +79,7 @@ WRITE BACK
 
 ---
 
-## 📊 State Diagram
 
-
-state_diagram
-
----
 
 ## ✅ Features
 
