@@ -81,17 +81,8 @@ WRITE BACK
 
 ## 📊 State Diagram
 
-Place your state diagram image in this folder with the following filename:
 
-```
-state_diagram.png
-```
-
-Then it will appear automatically below.
-
-```md
-![8-bit RISC Processor State Diagram](state_diagram.png)
-```
+state_diagram
 
 ---
 
