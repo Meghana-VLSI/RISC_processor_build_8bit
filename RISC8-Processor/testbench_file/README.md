@@ -1,8 +1,8 @@
-# Architecture Diagram - 8-bit RISC Processor
+# Testbench - 8-bit RISC Processor
 
 ## 📌 Overview
 
-This folder contains the architecture (block) diagram of the 8-bit RISC Processor. It illustrates the major hardware components and their interconnections.
+This folder contains the Verilog testbench used to verify the functionality of the 8-bit RISC Processor through simulation.
 
 ---
 
@@ -10,35 +10,40 @@ This folder contains the architecture (block) diagram of the 8-bit RISC Processo
 
 | File | Description |
 |------|-------------|
-| architecture_diagram.png | Processor block diagram |
-| README.md | Architecture documentation |
+| risc8_tb.v | Main testbench |
+| README.md | Testbench documentation |
 
 ---
 
-## 🧩 Main Components
+## 🎯 Objective
 
-- Program Counter (PC)
-- Instruction Memory
-- Control Unit
-- Register File
-- Arithmetic Logic Unit (ALU)
-- Data Memory
-- Write Back Unit
+The testbench generates clock, reset, and input stimulus to verify the processor functionality.
 
 ---
 
+## 🛠 Verification
 
-## 🔄 Working
+The following features are verified:
 
-1. Fetch instruction.
-2. Decode instruction.
-3. Read operands.
-4. Execute ALU operation.
-5. Access memory (LOAD/STORE).
-6. Write result back to register.
+- Reset operation
+- Clock generation
+- Instruction execution
+- ALU operations
+- Register write-back
+- Memory read/write
 
 ---
 
-## ✔ Conclusion
+## ▶ Running the Testbench
 
-The architecture diagram provides a clear representation of the internal organization and data flow of the 8-bit RISC Processor.
+1. Open Vivado.
+2. Add RTL files.
+3. Add `risc8_tb.v`.
+4. Run Behavioral Simulation.
+5. Observe waveform.
+
+---
+
+## ✔ Result
+
+The testbench successfully verifies the operation of the 8-bit RISC Processor under different instruction sequences.
