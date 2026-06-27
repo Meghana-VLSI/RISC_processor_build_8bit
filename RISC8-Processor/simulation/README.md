@@ -38,22 +38,11 @@ This folder contains the simulation results of the 8-bit RISC Processor. The des
 ## 📊 RTL Schematic
 
 The RTL schematic represents the structural organization of the 8-bit RISC Processor after RTL elaboration. It illustrates the interconnection between the processor modules such as the Program Counter, Instruction Memory, Control Unit, Register File, ALU, Data Memory, and Write-Back logic.
-
-**RTL Schematic**
-
-![RTL Schematic](rtl_schematic.png)
-
 ---
 
 ## 📈 Simulation Waveform
 
 The behavioral waveform verifies the correct execution of the processor. The waveform shows the sequence of instruction fetch, decode, operand read, ALU execution, memory access, and register write-back during clock cycles.
-
-**Simulation Waveform**
-
-![Simulation Waveform](waveform.png)
-
----
 
 ## ✅ Simulation Verification
 
